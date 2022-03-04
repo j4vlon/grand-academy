@@ -97,7 +97,6 @@ a{
 }
 .main__header{
     margin: 0;
-    padding-top: 90px;
     color: #243994;
     font-size: 40px;
     line-height: 56px;
@@ -207,6 +206,7 @@ a{
 
 .partition-path{
     margin-top: 38px;
+    margin-bottom: 47px;
 }
 .cards{
     margin-bottom: 188px;
@@ -266,9 +266,9 @@ a{
      width: 100%;
  }
  .contact-text-block{
-     margin-bottom: 41px;
      font-size: 16px;
      line-height: 25px;
+     margin-bottom: 88px
  }
  .contact-text-block ul{
     padding-left: 30px;
