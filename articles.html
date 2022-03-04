@@ -1,7 +1,12 @@
-<!DOCTYPE html>
 <html lang="en">
-
-<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +14,8 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <header class="header">
+    <header class="header ">
         <nav class="header__nav container">
             <div class="logo">
                 <a href="#"><img src="images/logo.svg" alt=""></a>
@@ -19,8 +23,8 @@
             <ul class="header__list">
                 <li class="header__list_item"><a href="#" class="item__link">О нас</a></li>
                 <li class="header__list_item"><a href="#" class="item__link">Курсы</a></li>
-                <li class="header__list_item"><a href="#" class="item__link">Команда</a></li>
-                <li class="header__list_item"><a href="news.html" class="item__link">Новости</a></li>
+                <li class="header__list_item"><a href="team.html" class="item__link">Команда</a></li>
+                <li class="header__list_item"><a href="#" class="item__link">Новости</a></li>
                 <li class="header__list_item"><a href="#" class="item__link">Галерея</a></li>
                 <li class="header__list_item"><a href="#" class="item__link">Контакты</a></li>
                 <li class="header__list_item">
@@ -42,56 +46,72 @@
     </header>
     <div class="main">
         <div class="container">
-
             <div class="partition-path">
-                <a href="#" class="item__link">Главная</a>&nbsp;/&nbsp;<a href="#" class="this-page">Команда</a>
+                <a href="#" class="item__link">Главная</a>&nbsp;/&nbsp;<a href="#" class="this-page">Новости</a>&nbsp;/&nbsp;<span class="this-page">Как проводят анализ методом ПЦР. Описание процедуры</span>
             </div>
-            <h2 class="main__header">Наша команда</h2>
-            <div class="content cards">
-                <div class="row">
+            <h2 class="main__header">Как проводят анализ методом ПЦР.</br> Описание процедуры</h2>
+            <p class="this-page date">15.02.2022</p>
+            <div class="news-banner">
+                <img src="images/news/imageq1.png" alt="">
+            </div>
+            <div class="contact-text-block">
+                <p>
+                    Полимеразная цепная реакция известна уже 30 лет. Ее широко используют во многих областях, начиная с археологии и заканчивая генетикой.
+Именно метод пцр помогает установить отцовство, но наиболее часто его используют для выявления различных инфекционных болезней в организме человека. Как проводят анализ методом пцр, и что это такое? На эти вопросы мы постараемся детально ответить.
+                </p>
+            </div>
+            <h3 class="txt-block-heading">Анализ ПЦР — что это такое?</h3>
+            <div class="contact-text-block">
+                <p>
+                    Полимеразная цепная реакция (ПЦР) – высокоточный метод молекулярно-генетической диагностики, который позволяет выявить у человека различные инфекционные и наследственные заболевания, как в острой и хронической стадии, так и задолго до того, как заболевание может себя проявить.
+                </p>
+            </br>
+                <p>
+                    Метод ПЦР — абсолютно специфичен и выполненный правильно не может дать ложноположительный результат. То есть, если инфекции нет, то анализ никогда не покажет, что она есть. Поэтому сейчас очень часто для утверждения диагноза дополнительно сдают анализ ПЦР, чтобы определить возбудителя и его природу.
+                </p>
+            </br>
+                <p>  
+                    Полимеразную цепную реакцию (ПЦР) в 1983 году разработал Кэри Мюллис (США), за что в 1993 году он удостоен Нобелевской премии в области химии.  
+                </p>
+            </div>
+            <h3 class="txt-block-heading">В чем преимущество данного метода?</h3>
+            <div class="contact-text-block">
+                    Диагностика этим методом позволяет найти возбудителя непосредственно в гене, который содержится в исследуемых материалах. Это самый точный анализ на половые инфекции, скрытые инфекции, различные венерические заболевания. </br>
+
+                    Отличия ПЦР-диагностики от других методов лабораторного исследования заключаются в следующем:
+                <ul>
+                    <li> метод нацелен на выявление самого возбудителя;</li>
+                    <li> диагностика методом ПЦР отличается универсальностью: для обнаружения возбудителей нескольких;</li>
+                    <li> заболеваний достаточно только одного биологического образца больного;</li>
+                    <li> метод обладает высокой чувствительностью и не сопровождается другими перекрестными реакциями.</li>
+                    <li> Кроме этого, преимуществом ПЦР-диагностики является то, что для анализа пригоден любой биологический материал пациента: кровь, выделения из половых органов, моча, сперма.</li>
+                </ul>    
+                    
+            <div class="other-news">
+                <h2 class="main__header">Другие статьи</h2>
+            </div> 
+                  <div class="row">
                     <div class="col-md-4">
                         <div class="employee-card">
-                            <span><img src="images/employee.png" alt=""></span>
-                            <p class="employee-name">Шакирова Гулноз Джураевна</p>
-                            <p class="employee-position">Руководитель</p>
+                            <img src="images/Rectangle115.png" alt="">
+                            <p class="news-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="employee-card">
-                            <span><img src="images/employee.png" alt=""></span>
-                            <p class="employee-name">Шакирова Гулноз Джураевна</p>
-                            <p class="employee-position">Руководитель</p>
+                            <img src="images/Rectangle116.png" alt="">
+                            <p class="news-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="employee-card">
-                            <span><img src="images/employee.png" alt=""></span>
-                            <p class="employee-name">Шакирова Гулноз Джураевна</p>
-                            <p class="employee-position">Руководитель</p>
+                            <img src="images/Rectangle117.png" alt="">
+                            <p class="news-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="employee-card">
-                            <span><img src="images/employee.png" alt=""></span>
-                            <p class="employee-name">Шакирова Гулноз Джураевна</p>
-                            <p class="employee-position">Руководитель</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="employee-card">
-                            <span><img src="images/Rectangle110.png" alt=""></span>
-                            <p class="employee-name">Шакирова Гулноз Джураевна</p>
-                            <p class="employee-position">Руководитель</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="employee-card">
-                            <span><img src="images/Rectangle111.png" alt=""></span>
-                            <p class="employee-name">Шакирова Гулноз Джураевна</p>
-                            <p class="employee-position">Руководитель</p>
-                        </div>
-                    </div>
-                </div>
+                  </div>  
+                    
+                    
             </div>
         </div>
     </div>
@@ -182,5 +202,4 @@
         </div>
     </footer>
 </body>
-
 </html>

@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,7 +10,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header ">
         <nav class="header__nav container">
             <div class="logo">
                 <a href="#"><img src="images/logo.svg" alt=""></a>
@@ -19,8 +18,8 @@
             <ul class="header__list">
                 <li class="header__list_item"><a href="#" class="item__link">О нас</a></li>
                 <li class="header__list_item"><a href="#" class="item__link">Курсы</a></li>
-                <li class="header__list_item"><a href="#" class="item__link">Команда</a></li>
-                <li class="header__list_item"><a href="news.html" class="item__link">Новости</a></li>
+                <li class="header__list_item"><a href="team.html" class="item__link">Команда</a></li>
+                <li class="header__list_item"><a href="#" class="item__link">Новости</a></li>
                 <li class="header__list_item"><a href="#" class="item__link">Галерея</a></li>
                 <li class="header__list_item"><a href="#" class="item__link">Контакты</a></li>
                 <li class="header__list_item">
@@ -42,56 +41,61 @@
     </header>
     <div class="main">
         <div class="container">
-
             <div class="partition-path">
-                <a href="#" class="item__link">Главная</a>&nbsp;/&nbsp;<a href="#" class="this-page">Команда</a>
+                <a href="#" class="item__link">Главная</a>&nbsp;/&nbsp;<a href="#" class="this-page">Контакты</a>
             </div>
-            <h2 class="main__header">Наша команда</h2>
-            <div class="content cards">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="employee-card">
-                            <span><img src="images/employee.png" alt=""></span>
-                            <p class="employee-name">Шакирова Гулноз Джураевна</p>
-                            <p class="employee-position">Руководитель</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="employee-card">
-                            <span><img src="images/employee.png" alt=""></span>
-                            <p class="employee-name">Шакирова Гулноз Джураевна</p>
-                            <p class="employee-position">Руководитель</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="employee-card">
-                            <span><img src="images/employee.png" alt=""></span>
-                            <p class="employee-name">Шакирова Гулноз Джураевна</p>
-                            <p class="employee-position">Руководитель</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="employee-card">
-                            <span><img src="images/employee.png" alt=""></span>
-                            <p class="employee-name">Шакирова Гулноз Джураевна</p>
-                            <p class="employee-position">Руководитель</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="employee-card">
-                            <span><img src="images/Rectangle110.png" alt=""></span>
-                            <p class="employee-name">Шакирова Гулноз Джураевна</p>
-                            <p class="employee-position">Руководитель</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="employee-card">
-                            <span><img src="images/Rectangle111.png" alt=""></span>
-                            <p class="employee-name">Шакирова Гулноз Джураевна</p>
-                            <p class="employee-position">Руководитель</p>
+            <div class="head-block">
+                <h2 class="main__header">Наши контакты</h2>
+            </div>
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="contact-block">
+                        <div class="phone-block">
+                            <div class="phone-block__p mb-35">
+                                <span class="phone-block__svg"><svg width="32" height="32" viewBox="0 0 32 32"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M30.2498 12.4375H27.8748C27.8723 10.2337 26.9957 8.12081 25.4374 6.56246C23.879 5.00411 21.7662 4.12752 19.5623 4.12501V1.75001C22.3959 1.75315 25.1125 2.88016 27.1161 4.88378C29.1197 6.88739 30.2467 9.60397 30.2498 12.4375ZM21.1453 22.5099L23.8053 19.8499C24.1613 19.4937 24.6141 19.2499 25.1074 19.1486C25.6007 19.0473 26.1129 19.0929 26.5805 19.2799L29.82 20.5766C30.2974 20.7677 30.7067 21.0974 30.995 21.5233C31.2833 21.9491 31.4374 22.4516 31.4373 22.9659V28.8571C31.4382 29.2072 31.3675 29.5539 31.2298 29.8758C31.092 30.1977 30.89 30.4881 30.6361 30.7292C30.3822 30.9703 30.0817 31.1571 29.7531 31.278C29.4245 31.399 29.0747 31.4517 28.7251 31.4328C6.01771 30.0196 1.43159 10.7869 0.580152 3.42201C0.538914 3.06195 0.574372 2.69725 0.684193 2.35188C0.794014 2.00651 0.97571 1.68831 1.21733 1.41819C1.45895 1.14808 1.75502 0.932186 2.08606 0.784704C2.4171 0.637222 2.77562 0.561497 3.13803 0.56251H8.92471C9.43898 0.562494 9.94146 0.716566 10.3673 1.00485C10.7932 1.29314 11.1229 1.70242 11.314 2.17989L12.6095 5.41939C12.7965 5.88699 12.8421 6.39918 12.7408 6.89248C12.6395 7.38579 12.3957 7.83852 12.0395 8.19457L9.37953 10.8546C9.37953 10.8546 10.8544 21.2238 21.1453 22.5099Z"
+                                            fill="#3DA2FF" />
+                                    </svg> </span>
+                                <p class="phone-block__contact">+998 (90) 962-15-36</p>
+                            </div>
+                            <div class="phone-block__p mb-35">
+                                <span class="phone-block__svg"><svg width="35" height="27" viewBox="0 0 35 27"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.5 20.0625C16.37 20.0625 15.24 19.6919 14.2762 18.9407L0 7.83984V23.3438C0 25.1553 1.46904 26.625 3.28125 26.625H31.7188C33.531 26.625 35 25.156 35 23.3438V7.83984L20.7266 18.9482C19.7627 19.6934 18.6279 20.0625 17.5 20.0625ZM1.11357 5.93262L15.6194 17.2188C16.7262 18.0801 18.2766 18.0801 19.3833 17.2188L33.8892 5.93262C34.5283 5.38574 35 4.54492 35 3.65625C35 1.84404 33.5303 0.375 31.7188 0.375H3.28125C1.46904 0.375 0 1.84404 0 3.65625C0 4.54492 0.41084 5.38574 1.11357 5.93262Z"
+                                            fill="#3DA2FF" />
+                                    </svg> </span>
+                                <p class="phone-block__contact">info@gph-academy.uz</p>
+                            </div>
+                            <div class="phone-block__p">
+                                <span class="phone-block__svg"><svg width="26" height="35" viewBox="0 0 26 35"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.2243 34.2135C7.74295 29.8135 0 19.1492 0 13.1591C0 5.89142 5.73285 0 12.8049 0C19.8742 0 25.6098 5.89142 25.6098 13.1591C25.6098 19.1492 17.8068 29.8135 14.3855 34.2135C13.5652 35.2621 12.0446 35.2621 11.2243 34.2135ZM12.8049 17.5454C15.1591 17.5454 17.0732 15.5784 17.0732 13.1591C17.0732 10.7397 15.1591 8.7727 12.8049 8.7727C10.4506 8.7727 8.53659 10.7397 8.53659 13.1591C8.53659 15.5784 10.4506 17.5454 12.8049 17.5454Z"
+                                            fill="#3DA2FF" />
+                                    </svg></span>
+                                <p class="phone-block__contact">г. Ташкент, ул. Шарафа Рашидова 97А</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-xl-6">
+                    <div class="contact-block">
+                        <h4 class="form-header">Оставьте заявку и наши менеджеры свяжутся с вами</h4>
+                        <div class="form-block">
+                            <form action="" class="form">
+                                <input type="text" class="form-input" placeholder="Ваше имя">
+                                <input type="phone" class="form-input" placeholder="Ваш телефон">
+                                <input type="submit" class="submit-btn">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map">
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="1200" height="511" id="gmap_canvas" src="https://maps.google.com/maps?q=%D0%B3.%20%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82,%20%D1%83%D0%BB.%20%D0%A8%D0%B0%D1%80%D0%B0%D1%84%D0%B0%20%D0%A0%D0%B0%D1%88%D0%B8%D0%B4%D0%BE%D0%B2%D0%B0%2097%D0%90&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br><style>.mapouter{position:relative;text-align:right;height:511px;width:1200px;}</style><a href="https://www.embedgooglemap.net">how to insert google map into website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:511px;width:1200px;}</style></div></div>
             </div>
         </div>
     </div>

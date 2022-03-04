@@ -14,6 +14,7 @@
     font-style: normal;
     font-display: swap;
 }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 body{
     font-family: "Montserrat";
     font-weight: 500;
@@ -29,6 +30,7 @@ a{
     top: 0;
     width: 100%;
     position: fixed;
+    z-index: 999;
 }
 .header__nav{
     display: flex;
@@ -43,6 +45,9 @@ a{
 .header__list_item{
     padding: 0 12px;
     font-size: 18px;
+}
+.logo{
+    padding: 18px;
 }
 .item__link{
     color: black;
@@ -61,19 +66,21 @@ a{
     border-radius: 50px;
     padding: 16px 20px;
 }
+.main{
+    padding-top: 5%;
+}
 .cover{
     background-image: url(../images/banner.png);
-    height: 350px;
+    height: 632px;
     background-size: cover;
-    padding: 252px 404px 120px 81px;
+    padding: 162px 303px 120px 81px;
 }
 .cover__text{
-    max-width: 809px;
-    height: 186px;
+    max-width: 955px;
     background: #3DA2FF;
     box-shadow: 0px 8px 28px rgb(103 103 103 / 10%), 0px 18px 88px rgb(103 103 103 / 10%);
     border-bottom-left-radius: 88px;
-    padding: 68px 105px 96px 41px;
+    padding: 68px 0 96px 41px;
 }
 .cover__text span{
     font-weight: bold;
@@ -83,7 +90,7 @@ a{
 }
 .cover__img{
     position: absolute;
-    top: 81px;
+    top: 86px;
 }
 .main__about-us{
     margin-top: 150px;
@@ -92,6 +99,9 @@ a{
     margin: 0;
     padding-top: 90px;
     color: #243994;
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 700;
 }
 .txt-aboutus{
     width: 571px;
@@ -106,6 +116,7 @@ a{
     border-radius: 50px;
     margin-top: 27px;
     color: white;
+    display: inline-block;
 }
 .aboutus-block{
 
@@ -155,6 +166,10 @@ a{
     background-color: #243994;
     padding-top: 65px;
     border-top: 6px solid #30E9D2;
+}
+.footer-logo-link{
+    margin-bottom: 34px;
+    display: inline-block;
 }
 .footer-logo p{
     color: white;
@@ -215,6 +230,10 @@ a{
     height: 457px;
     margin-top: 47px;
 }
+.employee-card span{
+    width: 100%;
+    display: block;
+}
 .employee-name{
     text-align: center;
     color: #243994;
@@ -235,3 +254,99 @@ a{
     margin-top: 17px;
 }
 /* NEWS */
+ /* ARTICLES */
+ .date{
+     margin-bottom: 15px;
+     margin-top: 15px;
+ }
+ .news-banner{
+    margin-bottom: 38px;
+ }
+ .news-banner img{
+     width: 100%;
+ }
+ .contact-text-block{
+     margin-bottom: 41px;
+     font-size: 16px;
+     line-height: 25px;
+ }
+ .contact-text-block ul{
+    padding-left: 30px;
+ }
+ .txt-block-heading{
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 13px;
+ }
+ /* ARTICLES */
+ 
+ /* CONTACTS */
+ .head-block{
+     margin-bottom: 47px;
+ }
+ .contact-block{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 28px rgb(103 103 103 / 10%), 0px 18px 88px rgb(103 103 103 / 10%);
+    border-radius: 30px;
+    padding: 55px 88px 55px 49px;
+ }
+ .phone-block__p{
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    letter-spacing: 0.01em;
+    align-items: center;
+ }
+ .mb-35{
+    margin-bottom: 35px;
+ }
+ .phone-block__svg{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 28px -6px rgb(103 103 103 / 10%), 0px 18px 88px -4px rgb(103 103 103 / 10%);
+    border-radius: 20px;
+    display: inline-block;
+    padding: 24px;
+ }
+ .phone-block__contact{
+    margin-left: 30px;
+ }
+ .phone-block{
+
+ }
+ .form-header{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 43px;
+    margin-bottom: 25px;
+    color: #243994;
+    letter-spacing: 0.01em;
+ }
+ .form-block{
+    width: 60%;
+ }
+ .form{
+    display: flex;
+    flex-direction: column;
+ }
+ .form-input{
+    margin-bottom: 25px;
+    padding: 16px 20px;
+    border: 1px solid #3DA2FF;
+    box-sizing: border-box;
+    border-radius: 50px;
+ }
+ .submit-btn{
+    border: 1px solid #3DA2FF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: #3DA2FF;
+    padding: 16px 20px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+ }
+ .mapouter{
+    width: 100%;
+ }
