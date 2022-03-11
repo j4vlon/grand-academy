@@ -122,7 +122,7 @@ a{
     margin-bottom: 30px;
 }
 .txt-aboutus{
-    width: 571px;
+    width: 532px;
 }
 .txt-aboutus p{
     margin-bottom: 28px;
@@ -179,14 +179,15 @@ a{
     background: #FFFFFF;
     box-shadow: 0px 8px 28px -6px rgb(103 103 103 / 10%), 0px 18px 88px -4px rgb(103 103 103 / 10%);
     border-radius: 10px;
-    width: 201px;
-    height: 192px;
+    width: 230px;
+    height: 214px;
     position: absolute;
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    top: 449px;
+    left: 241px;
 }
 .img-aboutus__block p{
     margin: 0 auto;
@@ -199,8 +200,8 @@ a{
     width: 200px;
     height: 192px;
     position: absolute;
-    margin-top: -74px;
-    margin-left: 221px;
+    top: 74px;
+    left: -101px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -763,16 +764,28 @@ a{
  .cours-block-head h3{
     font-weight: 700;
     font-size: 40px;
-    line-height: 24px;
+    line-height: 48px;
     letter-spacing: 0.01em;
     color: #243994;
+    
  }
- .fisrt-course-img{
-    background-image: url(../images/singlecourse/Single-1.png);
-    background-size: cover;
-    width: 487px;
-    height: 567px;
+ .first-course-img{
     position: relative;
+    width: 100%;
+ }
+ .course-im-span{
+     display: inline-block;
+     position: relative;
+ }
+ .course-im-span::before{
+    content: "";
+    position: absolute;
+    width: 443px;
+    height: 503px;
+    background: #243994;
+    bottom: -23px;
+    right: -22px;
+    z-index: -1;
  }
  .num{
     position: absolute;
@@ -806,6 +819,7 @@ a{
     height: 60px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
  }
  .course-info{
     position: relative;
@@ -813,17 +827,16 @@ a{
     box-shadow: 0px 8px 28px -6px rgb(103 103 103 / 10%), 0px 18px 88px -4px rgb(103 103 103 / 10%);
     border-radius: 10px;
     width: 293px;
-    padding: 0 19px;
-    display: flex;
+    padding: 35px 19px;
     height: 317px;
-    justify-content: space-around;
-    flex-direction: column;
+    margin-bottom: 33px;
  }
  .course-info h5{   
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
     color: #243994;
+    margin-bottom: 11px;
  }
  .course-info p{
     font-weight: 500;
@@ -864,14 +877,21 @@ a{
  .offline-price-block{
     background: #b2dbff21;
     display: flex;
-    width: 372px;
+    width: 100%;
     border-radius: 40px;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     height: 669px;
-    padding-left: 25px;
+    padding: 45px 58px;
  }
+ .offline-price-block.dark{
+    background: #243994;
+ }
+ .offline-price-block.dark .div-ul p{
+     color: #fff;
+ }
+ 
  .offline-block-txt svg{
      margin-right: 12px;
  }
@@ -921,7 +941,7 @@ a{
  .online-proce-block{
     background: #243994;
     display: flex;
-    width: 372px;
+    width: 100%;
     border-radius: 40px;
     flex-direction: column;
     justify-content: space-evenly;
@@ -960,7 +980,183 @@ a{
     font-size: 16px;
     line-height: 24px;
  }
+ .farm-heading{
+     margin-bottom: 62px;
+ }
+ .resource-block-ul{
+     list-style-type: none;
+ }
+ .resource-block-ul li{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-bottom: 72px;
+    align-items: flex-start
+    
+ }
+ .resource-block-ul span{
+    margin-right: 20px;
+ }
+ .profit-heading.main__header{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+ }
+ .w-100{
+     width: 100% !important;
+ }
+ .profit-block p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+ }
+ .education-type{
+     background-color: #FFFFFF;
+     padding: 156px 120px;
+ }
+ .education-heading h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 24px !important;
+    letter-spacing: 0.01em;
+    color: #243994;
+    margin-bottom: 32px;
+ }
+ .price-type-block{
+    display: flex;
+    flex-direction: column;
+    height: 630px;
+    justify-content: center;
+ }
+ .price-type-head{
+    margin-bottom: 104px;
+ }
+ .price-type-head h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    margin-bottom: 0;
+ }
+ .price-type-paragraph{
+    display: flex;
+    align-items: center;
+    margin-bottom: 54px;
+    width: 530px;
+ }
+ .price-type-paragraph p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #000000;
+ }
+ .price-type-paragraph svg{
+     margin-right: 20px;
+ }
+ .education-heading{
+     margin-bottom: 61px;
+ }
+ .education-type p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+ }
+ .education-card{
+    background-color: #b2dbff6e;
+    border-radius: 40px;
+    padding: 45px 31px;
+    width: 575px;
+height: 507px;  
+ }
+ .edu-p{
+     display: flex;
+     margin-bottom: 43px;
+ }
+ .edu-p p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    color: #333333;
+ }
+ .edu-p svg{
+    margin-right: 11px;
+ }
+ .card-h{
+     display: flex;
+     justify-content: space-around;
+    margin-bottom: 30px;
+     border-radius: 40px;
+ }
+ .edu-h5{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+ }
+ .card-h h5{
+    color: #243994;
+ }
+ .card-h h6{
+     color: #3DA2FF;
+ }
 
+.interaction .partner-head{
+    margin-bottom: 84px;
+}
+.interaction-block{
+    display: flex;
+    align-items: center;
+}
+.interaction-chain{
+    display: flex;
+    align-items: center;
+}
+.chain-txt-block{
+    display: flex;
+}
+.chain-txt{
+
+}
+.interaction-nums h5{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #243994;
+}
+.chain-txt h5{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #243994;
+}
+.chain-txt p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.01em; 
+}
+.chain-img{
+    width: 160px;
+    height: 160px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 28px -6px rgb(103 103 103 / 10%), 0px 18px 88px -4px rgb(103 103 103 / 10%);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
  @media (max-width:1200px) {
      .course-details span{
