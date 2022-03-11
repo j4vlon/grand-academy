@@ -287,6 +287,9 @@ a{
 .mb-40{
     margin-bottom: 40px;
 }
+.ml-28{
+    margin: 0 28px;
+}
 
 .mb-50{
     margin-bottom: 50px;
@@ -674,6 +677,9 @@ a{
  .register-form{
     display: flex;
     justify-content: space-around;
+ }
+ .register-form form{
+     display: flex;
  }
  .register-block input{
     font-weight: 500;
@@ -1123,6 +1129,9 @@ height: 507px;
 .chain-txt-block{
     display: flex;
 }
+.chain-block{
+
+}
 .chain-txt{
 
 }
@@ -1162,7 +1171,56 @@ height: 507px;
      .course-details span{
          font-size: 14px;
      }
+     .advantages-block{
+         height: 836px;
+     }
+     .register-block h2{
+         line-height: 72px;
+     }
 
+ }
+ @media(max-width:991px){
+     .register-block {
+        display: flex;
+        justify-content: space-around;
+        padding: 48px 36px;
+     }
+     .registerblock-head{
+         width: 260px;
+     }
+    .register-form form{
+        flex-direction: column;
+    }
+    .ml-28{
+        margin: 0;
+    }
+    .register-block input{
+        margin-bottom: 20px;
+    }
+    .register-block h2{
+        line-height: 60px;
+        font-size: 34px;
+        text-align: left;
+    }
+ }
+ @media(max-width:770px){
+    .advantages-block {
+        height: 1012px;
+    }
+    .register-block h2{
+        line-height: 48px;
+        font-size: 34px;
+        text-align: center;
+    }
+    .registerblock-head{
+        width: 100%;
+    }
+    .register-form form{
+        align-items: center;
+    }
+    .register-block{
+        display: block;
+    }
  }
  @media(max-width:576px){
      .mb-150, .partners{
